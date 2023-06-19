@@ -1449,7 +1449,7 @@ function animate() {
 	
 	if (wave == 50 && enemies.length == 0 && empowered == false && empowerdesc == 0) {
 		resetfifty();
-		ctx.fillText("EMPOWERMENT", canvas.width / 2, canvas.height / 2 - 240);
+		ctx.fillText("Stage II", canvas.width / 2, canvas.height / 2 - 240);
 		ctx.font = "25px Courier New";
 		multilineText(empowermentDesc, 40, canvas.width / 2, canvas.height / 2 - 160, 30, 1200);
 		ctx.fillText("Click anywhere to continue", canvas.width / 2, canvas.height / 2 + 300);
@@ -1473,7 +1473,7 @@ function animate() {
 
 	if (wave == 100 && enemies.length == 0 && corrupted == false && corruptdesc == 0) {
 		resetfifty();
-		ctx.fillText("CORRUPTION", canvas.width / 2, canvas.height / 2 - 240);
+		ctx.fillText("Stage III", canvas.width / 2, canvas.height / 2 - 240);
 		ctx.font = "25px Courier New";
 		multilineText(corruptionDesc, 40, canvas.width / 2, canvas.height / 2 - 160, 30, 1200);
 		ctx.fillText("Click anywhere to continue", canvas.width / 2, canvas.height / 2 + 300);
@@ -1502,7 +1502,7 @@ function animate() {
 			displayWin(1);
 		} else {
 			resetfifty();
-			ctx.fillText("INSANITY", canvas.width / 2, canvas.height / 2 - 240);
+			ctx.fillText("Stage IV", canvas.width / 2, canvas.height / 2 - 240);
 			ctx.font = "25px Courier New";
 			multilineText(apocDesc, 40, canvas.width / 2, canvas.height / 2 - 160, 30, 1200);
 			ctx.fillText("Click anywhere to continue", canvas.width / 2, canvas.height / 2 + 300);
@@ -1531,7 +1531,7 @@ function animate() {
 			displayWin(2);
 		} else {
 			resetfifty();
-			ctx.fillText("CHAOS", canvas.width / 2, canvas.height / 2 - 240);
+			ctx.fillText("Stage V", canvas.width / 2, canvas.height / 2 - 240);
 			ctx.font = "25px Courier New";
 			let chaosArray = chaosDesc.split(" ");
 			for (let i = 0; i < Math.ceil(chaosArray.length / 8); i++) {
