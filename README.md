@@ -7,7 +7,7 @@
 * Added Earth, Wind, Water, Fire, a massive new set of mechanics to transform the game and make it less of a boring grind
 * Added skills, a feature that makes power more interesting and worthwhile
 * Replaced old abilities with entirely new ones to provide more long-term benefits and ability costs now scale since they weren't meant to be spammable anyways
-* Added 5 new combat units, 2 new farming units, 3 new misc units, and something that can autosend next waves to speed up progress. All of these units are more unique to allow for strategy diversity
+* Added 1 new combat unit, 2 new farming units, 3 new misc units, and something that can autosend next waves to speed up progress. All of these units are more unique to allow for strategy diversity
 * Added a massive range of new upgrades. Also removed/reworked some upgrades because they sucked, didn't fit the theme, were downgrades, or because they were causing too much lag
 * Added difficulties so that the player can adjust the game based on their skill level
 * Added Nightfall which is for you to explore
